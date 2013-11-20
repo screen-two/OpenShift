@@ -11,10 +11,10 @@
 */
 
 // Directory for db_config.php
-define('DB_CONFIG_DIR', '/var/www/html/140dev/db/');
+define('DB_CONFIG_DIR', '/var/www/html/screenspace/php/');
 
 // Server path for scripts within the framework to reference each other
-define('CODE_DIR', '/var/www/html/140dev/');
+define('CODE_DIR', '/var/www/html/screenspace/');
 
 // External URL for Javascript code in browsers to call the framework with Ajax
 define('AJAX_URL', 'http://yoursite.com/140dev/');
