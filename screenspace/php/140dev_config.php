@@ -11,13 +11,14 @@
 */
 
 // Directory for db_config.php
-define('DB_CONFIG_DIR', '/var/www/html/screenspace/php/');
+
+define('DB_CONFIG_DIR', '/var/lib/openshift/528bcc1d5973ca080400047c/app-root/runtime/repo/php');
 
 // Server path for scripts within the framework to reference each other
-define('CODE_DIR', '/var/www/html/screenspace/');
+define('CODE_DIR', '/var/lib/openshift/528bcc1d5973ca080400047c/app-root/runtime/repo/php');
 
 // External URL for Javascript code in browsers to call the framework with Ajax
-define('AJAX_URL', 'http://yoursite.com/140dev/');
+define('AJAX_URL', 'http://screenspace-screenspace.rhcloud.com');
 
 // OAuth settings for connecting to the Twitter streaming API
 // Fill in the values for a valid Twitter app
@@ -27,7 +28,7 @@ define('OAUTH_TOKEN','1615587769-OMh8nVTgIRDweHq7M2Cwkkm6Rik0yFmni9x0sSk');
 define('OAUTH_SECRET','o8a26KW7kGTocJF71loU3UE4Hh5yegPaceN9X0ngtI');
 
 // MySQL time zone setting to normalize dates
-define('TIME_ZONE','America/New_York');
+define('TIME_ZONE','Europe/Dublin');
 
 // Settings for monitor_tweets.php
 define('TWEET_ERROR_INTERVAL',10);

@@ -10,14 +10,14 @@
 */
 require_once('./140dev_config.php');
 
-require_once(CODE_DIR . './libs/phirehose/Phirehose.php');
-require_once(CODE_DIR . './libs/phirehose/OauthPhirehose.php');
+require_once(CODE_DIR . './phirehose/Phirehose.php');
+require_once(CODE_DIR . './phirehose/OauthPhirehose.php');
 class Consumer extends OauthPhirehose
 {
   // A database connection is established at launch and kept open permanently
   public $oDB;
   public function db_connect() {
-    require_once('db_lib.php');
+    require_once('./db_lib.php');
     $this->oDB = new db;
   }
 	
