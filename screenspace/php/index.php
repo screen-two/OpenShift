@@ -13,7 +13,11 @@
 	<h2>Welcome...</h2>
 </header>
    <div class="content-wrapper">
-   		<div class="placeholder-text"><p>You have reached Screen Space, by Digitalinc. All enquiries should be directed to <a href="mailto:hello@mixedmedia.ie">hello@mixedmedia.ie</a>. Thank you for your visit!</p></div>
+   		<div class="placeholder-text">
+        	<p>You have reached Screen Space, by Digitalinc. All enquiries should be directed to <a href="mailto:hello@mixedmedia.ie">hello@mixedmedia.ie</a>. Thank you for your visit!</p>
+        
+        	<p>Updated db config</p>
+   		</div>
    </div>
 </body>
 </html>
