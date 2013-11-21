@@ -17,7 +17,7 @@ class db
   // Create a database connection for use by all functions in this class
   function __construct() {
 
-    require(DB_CONFIG_DIR . 'db_config.php');
+    require(DB_CONFIG_DIR . './db_config.php');
     
     if($this->dbh = mysqli_connect($db_host, 
       $db_user, $db_password, $db_name)) { 

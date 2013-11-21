@@ -8,8 +8,10 @@
 * @license GNU Public License
 * @version BETA 0.20
 */
-  $db_host = 'localhost';
-  $db_user = '******';
-  $db_password = '******';
-  $db_name = '******'; 
+
+
+	$db_host = getenv('OPENSHIFT_MYSQL_DB_HOST');
+	$db_user = getenv('OPENSHIFT_MYSQL_DB_USERNAME');
+	$db_password = getenv('OPENSHIFT_MYSQL_DB_PASSWORD');
+	$db_name = getenv('OPENSHIFT_GEAR_NAME');
 ?> 
