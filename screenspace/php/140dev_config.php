@@ -12,10 +12,10 @@
 
 // Directory for db_config.php
 
-define('DB_CONFIG_DIR', '/var/lib/openshift/528bcc1d5973ca080400047c/app-root/runtime/repo/php');
+define('DB_CONFIG_DIR', '/var/lib/openshift/528bcc1d5973ca080400047c/app-root/runtime/repo/php/');
 
 // Server path for scripts within the framework to reference each other
-define('CODE_DIR', '/var/lib/openshift/528bcc1d5973ca080400047c/app-root/runtime/repo/php');
+define('CODE_DIR', '/var/lib/openshift/528bcc1d5973ca080400047c/app-root/runtime/repo/php/');
 
 // External URL for Javascript code in browsers to call the framework with Ajax
 define('AJAX_URL', 'http://screenspace-screenspace.rhcloud.com');

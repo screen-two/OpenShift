@@ -8,16 +8,16 @@
 * @license GNU Public License
 * @version BETA 0.20
 */
-require_once('./140dev_config.php');
+require_once('140dev_config.php');
 
-require_once(CODE_DIR . './phirehose/Phirehose.php');
-require_once(CODE_DIR . './phirehose/OauthPhirehose.php');
+require_once(CODE_DIR . '/phirehose/Phirehose.php');
+require_once(CODE_DIR . '/phirehose/OauthPhirehose.php');
 class Consumer extends OauthPhirehose
 {
   // A database connection is established at launch and kept open permanently
   public $oDB;
   public function db_connect() {
-    require_once('./db_lib.php');
+    require_once('db_lib.php');
     $this->oDB = new db;
   }
 	
@@ -46,7 +46,7 @@ $stream->db_connect();
 // The keywords for tweet collection are entered here as an array
 // More keywords can be added as array elements
 // For example: array('recipe','food','cook','restaurant','great meal')
-$stream->setTrack(array('recipe'));
+$stream->setTrack(array('cats', 'lolcatz', 'dogs'));
 
 // Start collecting tweets
 // Automatically call enqueueStatus($status) with each tweet's JSON data

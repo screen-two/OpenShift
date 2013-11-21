@@ -9,9 +9,12 @@
 * @version BETA 0.20
 */
 
+$db_host = $_ENV['OPENSHIFT_MYSQL_DB_HOST'];
+$db_user = $_ENV['OPENSHIFT_MYSQL_DB_USERNAME'];
+$db_password = $_ENV['OPENSHIFT_MYSQL_DB_PASSWORD'];
+$db_name = $_ENV['OPENSHIFT_APP_NAME'];
+$db_port = $_ENV['OPENSHIFT_MYSQL_DB_PORT'];
 
-	$db_host = getenv('OPENSHIFT_MYSQL_DB_HOST');
-	$db_user = getenv('OPENSHIFT_MYSQL_DB_USERNAME');
-	$db_password = getenv('OPENSHIFT_MYSQL_DB_PASSWORD');
-	$db_name = getenv('OPENSHIFT_GEAR_NAME');
 ?> 
+
+<!-- Found the above references at https://www.openshift.com/forums/openshift/error-connecting-to-mysql-through-php-53 -->

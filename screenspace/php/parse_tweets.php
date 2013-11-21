@@ -7,8 +7,8 @@
 * @license GNU Public License
 * @version BETA 0.20
 */
-require_once('./140dev_config.php');
-require_once('./db_lib.php');
+require_once('140dev_config.php');
+require_once('db_lib.php');
 $oDB = new db;
 
 // This should run continuously as a background process
